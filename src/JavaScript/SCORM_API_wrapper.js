@@ -80,7 +80,7 @@ pipwerks.SCORM.API.find = function(win){
 		scorm = pipwerks.SCORM;
 
 	try {
-		while (!errorGettingParent &&
+		while (!errorGettingAPI &&
 			   (!win.API && !win.API_1484_11) &&
 			   (win.parent) &&
 			   (win.parent != win) &&
